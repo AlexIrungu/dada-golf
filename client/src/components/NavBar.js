@@ -37,7 +37,7 @@ function NavBar() {
               </li>
              
               <li class="nav-item">
-                <NavLink to="/achievements"><a class="nav-link ">Achievements</a></NavLink>
+                <NavLink to="/our-events"><a class="nav-link ">Our Events</a></NavLink>
               </li>
               <li class="nav-item">
                 <NavLink to="/goals"><a class="nav-link ">Goals</a></NavLink>

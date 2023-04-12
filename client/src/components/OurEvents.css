@@ -1,0 +1,120 @@
+/* Global Styles */
+
+/* Set global font family, size and line height */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Headings */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+
+/* Paragraphs */
+p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Lists */
+ul,
+ol {
+  margin-left: 1.5em;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: all ease-in-out 0.2s;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* style the table header cells */
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+/* style the table rows */
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* style the table data cells */
+td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* alternate row background color for better readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

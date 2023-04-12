@@ -1,4 +1,5 @@
 import React from "react";
+import Achievements from "./Achievements"
 
 function About(){
     return(
@@ -39,6 +40,7 @@ writing the narrative.</li>
                     <li>We believe in equality beyond socioeconomic and educational status of women and girls
 in our awareness creation objective and campaigns on access to health services.</li>
                 </ol>
+                <Achievements />
             </div>
 
             <div className="about-pic">

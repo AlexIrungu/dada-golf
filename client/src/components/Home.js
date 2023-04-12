@@ -7,11 +7,15 @@ import brain from "../assets/brain.png"
 import mater from "../assets/mater.png"
 import dada from '../assets/dada.png'
 import Timer from "./Timer";
+// import AnimatedLogo from "./AnimatedLogo";
+import OurPartners from "./OurPartners";
 
 function Home() {
   return (
     <div className="container-fluid">
       <Timer />
+      {/* <AnimatedLogo /> */}
+      <OurPartners />
       <div className="row">
         <div className="col-md-12 text-center">
           <img src={dfgdh} alt="Logo" className="mt-3 mb-5" style={{ width: "100px", height: "auto" }} />
