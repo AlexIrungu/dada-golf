@@ -1,4 +1,5 @@
 import React from 'react';
+import './Gallery.css'
 import image from './highlights/1(1).jpg';
 import image2 from './highlights/1(2).jpg';
 import image3 from './highlights/1(3).jpg';
@@ -235,8 +236,9 @@ function Gallery() {
   // const images = require.context('./highlights', true, /\.(png|jpe?g|svg|jpg)$/);
 
   return (
-    <div className="row justify-content-center">
-      <div col-md-4 my-3>
+    <div className="card">
+      <div className='image-grid'>
+      <div className="image">
       <img src={image} alt="cover" />
       <img src={image2} alt="cover" />
       <img src={image3} alt="cover" />
@@ -466,25 +468,9 @@ function Gallery() {
       <img src={image227} alt="cover" />
       <img src={image228} alt="cover" />
       <img src={image229} alt="cover" />
-
       <img src={image230} alt="cover" />
       </div>
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+      </div>
       {/* Use .keys() to get an array of all the image filenames */}
       {/* <div className="row justify-content-center">
         {images.keys().map((path, index) => {
