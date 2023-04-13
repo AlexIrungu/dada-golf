@@ -260,7 +260,7 @@ a piece of that happiness pie. Living and eating well shows others that they can
                 </ol>
             </div>
 
-            <img src={initiative} />
+            <img src={initiative} alt="" />
 
 
         </div>

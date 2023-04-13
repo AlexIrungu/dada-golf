@@ -9,9 +9,11 @@ function NavBar() {
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-          <NavLink exact to="/"><a class="navbar-brand" href="#" >
+          <NavLink exact to="/">
+            <a class="navbar-brand" >
             Home
-          </a></NavLink>
+          </a>
+          </NavLink>
           <button
             class="navbar-toggler"
             type="button"
@@ -26,30 +28,44 @@ function NavBar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <NavLink to="/about"><a class="nav-link active" aria-current="page"  o>
+                <NavLink to="/about">
+                  <a class="nav-link active" aria-current="page"  o>
                   About
-                </a></NavLink>
+                </a>
+                </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink to="/proposition"><a class="nav-link" >
+                <NavLink to="/proposition">
+                  <a class="nav-link" >
                   Proposition
-                </a></NavLink>
+                </a>
+                </NavLink>
               </li>
              
               <li class="nav-item">
-                <NavLink to="/our-events"><a class="nav-link ">Our Events</a></NavLink>
+                <NavLink to="/our-events">
+                  <a class="nav-link ">Our Events</a>
+                  </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink to="/goals"><a class="nav-link ">Goals</a></NavLink>
+                <NavLink to="/goals">
+                  <a class="nav-link ">Goals</a>
+                  </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink to="/marketing"><a class="nav-link ">Marketing</a></NavLink>
+                <NavLink to="/marketing">
+                  <a class="nav-link ">Marketing</a>
+                  </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink to="/opportunities"><a class="nav-link ">Opportunities</a></NavLink>
+                <NavLink to="/opportunities">
+                  <a class="nav-link ">Opportunities</a>
+                  </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink to="/gallery"><a class="nav-link ">Gallery</a></NavLink>
+                <NavLink to="/gallery">
+                  <a class="nav-link ">Gallery</a>
+                  </NavLink>
               </li>
             </ul>
             
