@@ -1,6 +1,6 @@
 import React from "react";
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; // import Bootstrap CSS
-import dfgdh from "../assets/dfgdh.png"
+//import dfgdh from "../assets/dfgdh.png"
 import download from "../assets/download.png"
 import aghakan from "../assets/aghakan.jpeg"
 import brain from "../assets/brain.png"
@@ -18,7 +18,7 @@ function Home() {
       <OurPartners />
       <div className="row">
         <div className="col-md-12 text-center">
-          <img src={dfgdh} alt="Logo" className="mt-3 mb-5" style={{ width: "100px", height: "auto" }} />
+          {/* <img src={dfgdh} alt="Logo" className="mt-3 mb-5" style={{ width: "100px", height: "auto" }} /> */}
         </div>
       </div>
       <div className="row">
