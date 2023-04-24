@@ -1,5 +1,6 @@
 import React from "react";
 import Achievements from "./Achievements"
+import Proposition from "./Proposition"
 
 function About(){
     return(
@@ -41,6 +42,7 @@ writing the narrative.</li>
 in our awareness creation objective and campaigns on access to health services.</li>
                 </ol>
                 <Achievements />
+                <Proposition />
             </div>
 
             <div className="about-pic">

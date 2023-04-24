@@ -3,14 +3,14 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import NavBar from './components/NavBar';
-import Proposition from './components/Proposition';
+//import Proposition from './components/Proposition';
 import OurEvents from './components/OurEvents';
 import Goals from './components/Goals';
 import { Route, Switch} from 'react-router-dom'
 import Marketing from './components/Marketing';
 import Opportunities from './components/Opportunities';
 import Gallery from './components/Gallery';
-
+import Homepage from './components/Homepage'
 
 function App() {
   return (
@@ -19,9 +19,10 @@ function App() {
       <NavBar />
       <Switch>
      
-        <Route exact path="/"> <Home /> </Route>
+        <Route exact path="/"> < Homepage /> </Route>
+        <Route path="/home"><Home /> </Route>
         <Route  path="/about"> <About /> </Route>
-        <Route  path="/proposition">  <Proposition /></Route>
+        {/* <Route  path="/proposition">  <Proposition /></Route> */}
         <Route  path="/our-events">  <OurEvents /></Route>
         <Route  path="/goals">  <Goals /></Route>
         <Route  path="/marketing">  <Marketing /></Route>

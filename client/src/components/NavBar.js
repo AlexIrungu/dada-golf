@@ -11,7 +11,7 @@ function NavBar() {
         <div class="container-fluid">
           <NavLink exact to="/">
             <a class="navbar-brand" >
-            Home
+            LandingPage
           </a>
           </NavLink>
           <button
@@ -27,6 +27,13 @@ function NavBar() {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <NavLink to="/home">
+                  <a class="nav-link active" aria-current="page"  o>
+                  Home
+                </a>
+                </NavLink>
+              </li>
               <li class="nav-item">
                 <NavLink to="/about">
                   <a class="nav-link active" aria-current="page"  o>
@@ -34,13 +41,13 @@ function NavBar() {
                 </a>
                 </NavLink>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <NavLink to="/proposition">
                   <a class="nav-link" >
                   Proposition
                 </a>
                 </NavLink>
-              </li>
+              </li> */}
              
               <li class="nav-item">
                 <NavLink to="/our-events">
