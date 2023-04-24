@@ -1,29 +1,29 @@
 import React, { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
+// import { gsap } from 'gsap';
 import './OurPartners.css';
 
 const OurPartners = () => {
-  const logoRef = useRef(null);
-  const partnersRef = useRef([]);
+  // const logoRef = useRef(null);
+  // const partnersRef = useRef([]);
 
-  useEffect(() => {
-    const tl = gsap.timeline({ repeat: -1, yoyo: true });
+  // useEffect(() => {
+  //   const tl = gsap.timeline({ repeat: -1, yoyo: true });
 
-    // animate the logo in two parts
-    tl.from(logoRef.current, { duration: 1.5, y: -50, opacity: 0, backgroundColor: '#f8c300', ease: 'power4.out' })
-      .to(logoRef.current, { duration: 2, y: -20, rotation: 360, ease: 'elastic.out' });
+  //   // animate the logo in two parts
+  //   tl.from(logoRef.current, { duration: 1.5, y: -50, opacity: 0, backgroundColor: '#f8c300', ease: 'power4.out' })
+  //     .to(logoRef.current, { duration: 2, y: -20, rotation: 360, ease: 'elastic.out' });
 
-    // animate each list item using staggered animation
-    gsap.from(partnersRef.current, { 
-      duration: 1, 
-      delay: 0.5, 
-      y: -20, 
-      opacity: 0, 
-      backgroundColor: '#ff5733',
-      stagger: { amount: 0.2, grid: 'auto' },
-      ease: 'power4.out'
-    });
-  }, []);
+  //   // animate each list item using staggered animation
+  //   gsap.from(partnersRef.current, { 
+  //     duration: 1, 
+  //     delay: 0.5, 
+  //     y: -20, 
+  //     opacity: 0, 
+  //     backgroundColor: '#ff5733',
+  //     stagger: { amount: 0.2, grid: 'auto' },
+  //     ease: 'power4.out'
+  //   });
+  // }, []);
 
   return (
     <div className="logo-and-partners">
