@@ -1,18 +1,16 @@
 import React from "react";
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; // import Bootstrap CSS
 //import dfgdh from "../assets/dfgdh.png"
-import download from "../assets/download.png"
-import aghakan from "../assets/aghakan.jpeg"
-import brain from "../assets/brain.png"
-import mater from "../assets/mater.png"
-import dada from '../assets/dada.png'
+
 import Timer from "./Timer";
+import Footer from "./Footer";
 // import AnimatedLogo from "./AnimatedLogo";
 
 function Home() {
   return (
     <div className="container-fluid">
       <Timer />
+      <Footer />
       {/* <AnimatedLogo /> */}
      
       <div className="row">
@@ -33,23 +31,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-2 mb-3 text-center">
-          <img src={download} alt="Logo" style={{ width: "100px", height: "auto" }} />
-        </div>
-        <div className="col-md-2 mb-3 text-center">
-          <img src={dada} alt="Logo" style={{ width: "100px", height: "auto" }} />
-        </div>
-        <div className="col-md-4 mb-3 text-center">
-          <img src={aghakan} alt="Logo" style={{ width: "100px", height: "auto" }} />
-        </div>
-        <div className="col-md-2 mb-3 text-center">
-          <img src={brain} alt="Logo" style={{ width: "100px", height: "auto" }} />
-        </div>
-        <div className="col-md-2 mb-3 text-center">
-          <img src={mater} alt="Logo" style={{ width: "100px", height: "auto" }} />
-        </div>
-      </div>
+     
     </div>
   );
 }

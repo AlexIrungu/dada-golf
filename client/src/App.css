@@ -1,3 +1,33 @@
 /* .container-fluid{
     background-color: rgb(175, 53, 140);
 } */
+
+/* Add this to your existing CSS stylesheet */
+
+img {
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+/* Add this to your existing CSS stylesheet or create a new one */
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-2 img,
+.col-md-4 img {
+    width: 100px;
+    height: auto;
+    margin: 0 20px;
+    transition: transform 0.2s;
+}
+
+.col-md-2 img:hover,
+.col-md-4 img:hover {
+    transform: scale(1.2);
+}
