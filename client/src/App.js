@@ -10,7 +10,7 @@ import { Route, Switch} from 'react-router-dom'
 import Marketing from './components/Marketing';
 import Opportunities from './components/Opportunities';
 import Gallery from './components/Gallery';
-import Homepage from './components/Homepage'
+// import Homepage from './components/Homepage'
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
       <NavBar />
       <Switch>
      
-        <Route exact path="/"> < Homepage /> </Route>
-        <Route path="/home"><Home /> </Route>
+        <Route exact path="/"> < Home /> </Route>
+        {/* <Route path="/home"><Home /> </Route> */}
         <Route  path="/about"> <About /> </Route>
         {/* <Route  path="/proposition">  <Proposition /></Route> */}
         <Route  path="/our-events">  <OurEvents /></Route>
