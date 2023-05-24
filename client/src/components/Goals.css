@@ -1,0 +1,13 @@
+/* .row {
+    display: flex;
+    justify-content: flex-start;
+  } */
+  .align-left{
+    text-align: left;
+  }
+  .right{
+    align-items: right;
+  }
+  .middle{
+    align-items: center;
+  }

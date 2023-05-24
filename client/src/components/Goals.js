@@ -1,13 +1,16 @@
 import React from "react";
+import './Goals.css'
+import Opportunities from "./Opportunities";
+import Marketing from './Marketing'
 
 function Goals(){
     return(
-        <div className="container mt-5">
+        <div className="container mt-5 d-flex justify-content-between" >
           <h3>What we want to achieve</h3>
-          <div class="card">
-            <div class="card-body">
-              <div class="row mt-3">
-                <div class="col-mt-4">
+          <div className="card align-left">
+            <div className="card-body">
+              <div className="row mt-3">
+                <div className="col-12 ">
                   <ul>
                     <li>Developing of breast cancer awareness material.</li>
                     <li>Arranging awareness lectures for female audience.</li>
@@ -17,7 +20,7 @@ function Goals(){
                     <li>Equipping specialized units in small scale medical centers and dispensaries</li>
                   </ul>
                 </div>
-                <div class="col-mt-6">
+                <div class="col-12 ">
                   <p>The primary goal will also be to give clear information on conditions and concerns affecting women through a forum of medical experts i.e Oncologists, Pediatricians, Surgeons, Dentists, nurses, pharmacy professionals, Counsellors etc.</p>
                   <ul>
                     <li>Breast cancer</li>
@@ -32,9 +35,16 @@ function Goals(){
               </div>
             </div>
           </div>
+          <div className="col-md-4">
+          <Opportunities />
+          </div>
+        <div className="col-md-4">
+          <Marketing />
+          </div>
         </div>
         
     )
 
 }
 export default Goals
+

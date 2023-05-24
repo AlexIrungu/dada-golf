@@ -3,7 +3,7 @@ import React from "react";
 function Opportunities() {
   return (
     <div className="container mt-5">
-      <div className="card">
+      <div className="card text-right">
         <div className="card-header">
           <h1>Opportunities</h1>
         </div>

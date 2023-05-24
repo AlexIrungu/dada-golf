@@ -59,16 +59,16 @@ function NavBar() {
                   <a class="nav-link ">Goals</a>
                   </NavLink>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <NavLink to="/marketing">
                   <a class="nav-link ">Marketing</a>
                   </NavLink>
-              </li>
-              <li class="nav-item">
+              </li> */}
+              {/* <li class="nav-item">
                 <NavLink to="/opportunities">
                   <a class="nav-link ">Opportunities</a>
                   </NavLink>
-              </li>
+              </li> */}
               <li class="nav-item">
                 <NavLink to="/gallery">
                   <a class="nav-link ">Gallery</a>

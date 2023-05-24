@@ -2,6 +2,7 @@ import React from "react";
 import Achievements from "./Achievements"
 import Proposition from "./Proposition"
 
+
 function About(){
     return(
         <div className="about-cont">
