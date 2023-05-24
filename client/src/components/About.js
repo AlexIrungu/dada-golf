@@ -47,9 +47,10 @@ in our awareness creation objective and campaigns on access to health services.<
                 <Proposition />
             </div>
 
-            <div className="about-pic">
+            {/* <div className="about-pic">
+                <img src="https://www.womenswellness-sd.com/wp-content/uploads/2021/07/WWSD-Banner.jpg" alt=""/>
 
-            </div>
+            </div> */}
         </div>
 
     )

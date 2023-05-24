@@ -5,6 +5,8 @@ import './OurEvents.css'
 function OurEvents(){
     return(
         <div className="ourEvents">
+          <img className="dada" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScbTBY59VL8pqDcRPXPaiHhTvAxsCCEHi5sQ&usqp=CAU" alt=""/>
+          <img className="wellness" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzPOQ-YNa4JDcOAQUoHPQlo1K7ke1tfcldoGeen6ZA9kiU-Q0075uaXx5v9MeFZ6Ldg2Q&usqp=CAU" alt=""/>
             <h1>2023 DWI WOMEN WELLNESS MONTH</h1>
             <h3>INTRODUCTION</h3>
             <h4>Campaign Duration: 1st to 31st MAY, 2023</h4>

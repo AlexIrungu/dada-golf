@@ -10,6 +10,7 @@ function Home() {
     <div className="container-fluid bg-pink">
       {/* <Timer /> */}
       <Footer />
+      <img src="https://post.healthline.com/wp-content/uploads/2023/04/HL-Program-Page-Womens-Wellness-1200x628-1.png" alt=""/>
     
      
       <div className="row">

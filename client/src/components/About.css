@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
+    background-image: url('https://www.womenswellness-sd.com/wp-content/uploads/2021/07/WWSD-Banner.jpg');
   }
   
   .about {
@@ -25,20 +26,15 @@
     margin-bottom: 10px;
   }
   
-  /* .about-pic {
+  .about-pic {
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-color: #f2f2f2;
-  } */
-  
-  /* .about-pic:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-image: url("");
-    background-size: cover;
+    background-image: url("https://www.womenswellness-sd.com/wp-content/uploads/2021/07/WWSD-Banner.jpg");
+    /* background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    background-repeat: no-repeat; */
   }
-   */
+  
+  
+  
