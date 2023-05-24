@@ -31,3 +31,47 @@ img:hover {
 .col-md-4 img:hover {
     transform: scale(1.2);
 }
+
+/* Styles for screens smaller than 576px (e.g., phones) */
+@media (max-width: 575.98px) {
+  body {
+    font-size: 14px;
+  }
+  /* Add more styles specific to small screens */
+}
+
+/* Styles for screens between 576px and 768px (e.g., small tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* Add more styles specific to small tablets */
+}
+
+/* Styles for screens between 768px and 992px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  /* Add more styles specific to tablets */
+}
+
+/* Styles for screens between 992px and 1200px (e.g., laptops, desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  /* Add more styles specific to laptops and desktops */
+}
+
+/* Styles for screens larger than 1200px (e.g., large desktops) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /* Add more styles specific to large desktops */
+}
