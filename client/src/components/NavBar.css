@@ -47,4 +47,19 @@
     font-size: 18px;
     margin-top: 10px;
   }
+  .navbar {
+    font-size: 18px;
+  }
   
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+  }
+  
+  .nav-link:hover {
+    color: #fff;
+    background-color: #d413b0;
+  }

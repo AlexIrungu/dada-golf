@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css'
 
-import Timer from "./Timer";
+//import Timer from "./Timer";
 import Footer from "./Footer";
 
 
@@ -30,7 +30,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="content">
         <p>
         Welcome to the Women Wellness Initiative website, dedicated to promoting the health and well-being of women across the globe.</p>
 

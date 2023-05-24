@@ -1,6 +1,7 @@
 import React from "react";
 import Achievements from "./Achievements"
 import Proposition from "./Proposition"
+import './About.css'
 
 
 function About(){

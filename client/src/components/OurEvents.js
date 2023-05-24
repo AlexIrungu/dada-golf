@@ -1,9 +1,10 @@
 import React from "react";
 import initiative from '../assets/initiative.png'
 import './OurEvents.css'
+
 function OurEvents(){
     return(
-        <div>
+        <div className="ourEvents">
             <h1>2023 DWI WOMEN WELLNESS MONTH</h1>
             <h3>INTRODUCTION</h3>
             <h4>Campaign Duration: 1st to 31st MAY, 2023</h4>

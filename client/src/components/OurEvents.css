@@ -1,120 +1,102 @@
-/* Global Styles */
+/* OurEvents.css */
 
-/* Set global font family, size and line height */
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+.ourEvents {
+  text-align: center;
+  margin: 20px;
+  /* OurEvents.css */
+
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScbTBY59VL8pqDcRPXPaiHhTvAxsCCEHi5sQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+
 }
 
-/* Headings */
 h1 {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  color: #666;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 h4 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #999;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 h5 {
-  font-size: 18px;
-  font-weight: bold;
-  color: #999;
-  margin-bottom: 10px;
-}
-
-h6 {
   font-size: 16px;
   font-weight: bold;
-  color: #999;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
-
-/* Paragraphs */
-p {
-  color: #333;
-  margin-bottom: 20px;
+.container {
+  margin-top: 20px;
 }
 
-/* Lists */
-ul,
-ol {
-  margin-left: 1.5em;
-  margin-bottom: 20px;
+.card {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
 }
 
-li {
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
   margin-bottom: 5px;
 }
 
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  display: block;
+.card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
-/* Links */
-a {
-  color: #007bff;
-  text-decoration: none;
-  transition: all ease-in-out 0.2s;
+.card-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+.list-group-item {
+  padding: 5px 0;
 }
+
+.list-group-numbered {
+  counter-reset: item;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.list-group-item::before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  font-weight: bold;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 20px;
 }
 
-/* style the table header cells */
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
 th {
-  background-color: #f2f2f2;
-  color: #333;
   font-weight: bold;
-  padding: 8px;
-  text-align: left;
-  border-bottom: 2px solid #ddd;
-}
-
-/* style the table rows */
-tr {
-  border-bottom: 1px solid #ddd;
-}
-
-/* style the table data cells */
-td {
-  padding: 8px;
-  text-align: left;
-  vertical-align: top;
-}
-
-/* alternate row background color for better readability */
-tr:nth-child(even) {
   background-color: #f9f9f9;
 }
+
+/* Additional custom styling can be added as per your requirements */

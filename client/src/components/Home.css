@@ -1,3 +1,28 @@
 .bg-pink{
     background-color: pink;
 }
+/* Home.css */
+
+.container-fluid {
+    padding-top: 50px;
+  }
+  
+  .card {
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .content {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
