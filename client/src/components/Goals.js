@@ -6,10 +6,11 @@ import Marketing from './Marketing'
 function Goals(){
     return(
         <div className="container mt-5 d-flex justify-content-between" >
-          <h3>What we want to achieve</h3>
+         
           <div className="card align-left">
             <div className="card-body">
               <div className="row mt-3">
+              <h3>What we want to achieve</h3>
                 <div className="col-12 ">
                   <ul>
                     <li>Developing of breast cancer awareness material.</li>
@@ -47,4 +48,3 @@ function Goals(){
 
 }
 export default Goals
-
