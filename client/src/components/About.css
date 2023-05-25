@@ -1,5 +1,5 @@
 .about-cont {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
@@ -35,6 +35,33 @@
     background-position: center;
     background-repeat: no-repeat; */
   }
+  
+  .about-image {
+    float: left;
+    margin-right: 20px;
+    max-width: 300px; /* Adjust the width as needed */
+  }
+
+  
+ 
+   
+  .background-image{
+   
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: left; */
+    /* width: fit-content; */
+    /* margin-right: 20px; */
+     max-width: 300px; 
+     max-height: 300px;
+     display: flex;
+     flex-direction: row;
+
+
+    /* height: auto;
+    margin-bottom: 20px; */
+  }
+  
   
   
   

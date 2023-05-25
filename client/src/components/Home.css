@@ -27,4 +27,14 @@
     list-style-type: disc;
     margin-left: 20px;
   }
+  .home-image {
+    /* width: 100%;
+    height: auto;
+    margin-bottom: 20px; */
+    float: left;
+    margin-right: 20px;
+    /* max-width: 300px; */
+    height: auto;
+    margin-bottom: 20px;
+  }
   

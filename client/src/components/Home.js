@@ -1,5 +1,8 @@
 import React from "react";
 import './Home.css'
+import image from './highlights/KMH_5093.jpg'
+import image2 from './highlights/KMH_5107.jpg'
+import image3 from './highlights/KMH_5135.jpg'
 
 //import Timer from "./Timer";
 import Footer from "./Footer";
@@ -10,8 +13,10 @@ function Home() {
     <div className="container-fluid bg-pink">
       {/* <Timer /> */}
       <Footer />
-      <img src="https://post.healthline.com/wp-content/uploads/2023/04/HL-Program-Page-Womens-Wellness-1200x628-1.png" alt=""/>
-    
+      {/* <img src="https://post.healthline.com/wp-content/uploads/2023/04/HL-Program-Page-Womens-Wellness-1200x628-1.png" alt=""/> */}
+      <img src={image} alt="" className="home-image"/>
+      {/* <img src={image2} alt="" className="home-image"/>
+      <img src={image3} alt="" className="home-image"/> */}
      
       <div className="row">
         <div className="col-md-12 text-center">

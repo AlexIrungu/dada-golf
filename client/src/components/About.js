@@ -2,13 +2,17 @@ import React from "react";
 import Achievements from "./Achievements"
 import Proposition from "./Proposition"
 import './About.css'
+import image4 from './highlights/KMH_5166.jpg'
+ import image5 from './highlights/KMH_5177.jpg'
 
 
 function About(){
     return(
         <div className="about-cont">
+           
             <div className="about">
             <h1>About Us</h1>
+            <img src={image4} alt="" className="about-image"/>
             <h3>Dada Wellness Festival</h3>
             <p>DWF is a charity medical campaign held during women wellness 
                 month to sensitize, inform and provide
@@ -18,6 +22,7 @@ function About(){
             </p>
             </div>
             <h1>ABOUT DADA WELLNESS INITIATIVE (DWI)</h1>
+              {/* <img src={image5} alt="" className="background-image" />  */}
             <p>DWI is a charitable community-based organization that brings together different stakeholders in
 the health sector to advocate for wellness through various public campaigns focusing on all
 aspects of women health.

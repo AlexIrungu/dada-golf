@@ -3,11 +3,12 @@
 .ourEvents {
   text-align: center;
   margin: 20px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp7J6Teqd7Bhb_3zy95Q7MFbRR0vqymkq3Mw&usqp=CAU");
+  /* background-image: url("./highlights/KMH_5177.jpg"); */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
   background-attachment: fixed;
+  
   opacity: 0.8;
 
 
@@ -100,3 +101,11 @@ th {
 }
 
 /* Additional custom styling can be added as per your requirements */
+.events-image{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 50px;
+}

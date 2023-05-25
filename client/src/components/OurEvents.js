@@ -1,7 +1,7 @@
 import React from "react";
 import initiative from '../assets/initiative.png'
 import './OurEvents.css'
-
+import image7 from './highlights/KMH_5183.jpg'
 function OurEvents(){
     return(
         <div className="ourEvents">
@@ -184,7 +184,7 @@ Health – Dada Wellness Golf Tournament</td>
             </div>
             
 
-           <div class="container">
+           <div class="events-image">
              <img src={initiative} class="img-fluid" alt="" />
            </div>
            

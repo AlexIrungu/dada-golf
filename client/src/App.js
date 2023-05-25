@@ -10,7 +10,7 @@ import { Route, Switch} from 'react-router-dom'
 import Marketing from './components/Marketing';
 import Opportunities from './components/Opportunities';
 import Gallery from './components/Gallery';
-// import Homepage from './components/Homepage'
+ //import Homepage from './components/Homepage'
 
 function App() {
   return (
