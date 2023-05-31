@@ -3,11 +3,14 @@
 .ourEvents {
   text-align: center;
   margin: 20px;
-  /* background-image: url("./highlights/KMH_5177.jpg"); */
+  
+    background-color: #d01896;
+  
+/*   
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   
   opacity: 0.8;
 
