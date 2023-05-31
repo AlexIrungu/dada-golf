@@ -11,3 +11,39 @@
   .middle{
     align-items: center;
   }
+  .container {
+    background-color: #F1F1F1;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #900a63;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  h3 {
+    color: #c21973;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .col-12 p {
+    margin-top: 20px;
+  }
+  
+  .col-12 img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
