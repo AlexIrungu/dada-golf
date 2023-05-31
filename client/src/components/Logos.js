@@ -11,7 +11,8 @@ function Logos() {
   const logosRef = useRef(null);
 
   useEffect(() => {
-    const logos = logosRef.current.getElementsByClassName('logo-item');
+    const logosContainer = logosRef.current;
+    const logos = logosContainer.getElementsByClassName('logo-item');
 
     let delay = 0;
     for (let i = 0; i < logos.length; i++) {
@@ -19,6 +20,14 @@ function Logos() {
       logo.style.animationDelay = `${delay}s`;
       delay += 0.3;
     }
+
+    logosContainer.addEventListener('mouseenter', () => {
+      logosContainer.style.animationPlayState = 'paused';
+    });
+
+    logosContainer.addEventListener('mouseleave', () => {
+      logosContainer.style.animationPlayState = 'running';
+    });
   }, []);
 
   return (
