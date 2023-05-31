@@ -15,7 +15,7 @@
   }
    */
 
-   .logo {
+   /* .logo {
     animation-name: fadeInLogo;
     animation-duration: 1s;
     animation-delay: 0.2s;
@@ -33,6 +33,127 @@
     100% {
       opacity: 1;
       transform: rotate(360deg);
+    }
+  }
+   */
+/* 
+    .logo {
+    opacity: 0;
+    animation: slideinLogo 2s infinite;
+    
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+   
+    
+   
+   
+    font-weight: bold;
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  
+    transition: opacity 0.3s ease-in-out;
+   
+  }
+  
+  @keyframes slideshowLogo {
+    0% {
+      opacity: 0;
+      transform: rotate(0);
+    }
+    10% {
+      opacity: 1;
+      transform: rotate(10deg);
+      
+    }
+    30% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+   
+  
+  @keyframes slideshowLogo {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .logo-item:hover {
+    opacity: 0.7;
+  }
+   */
+
+   .logos-container {
+    text-align: center;
+  }
+  
+  .logos-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .logos-list {
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+  }
+  
+  .logo-item {
+    position: relative;
+    opacity: 0;
+    animation: slideInLogo 1s ease-in-out forwards;
+    transform-style: preserve-3d;
+    margin: 12px;
+  }
+  
+  .logo-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateZ(-200px);
+  }
+  
+  @keyframes slideInLogo {
+    0% {
+      opacity: 0;
+      transform: translateZ(-200px) rotateX(90deg);
+    }
+    60% {
+      opacity: 1;
+      transform: translateZ(0) rotateX(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateZ(0) rotateX(0);
     }
   }
   
