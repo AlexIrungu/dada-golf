@@ -1,9 +1,9 @@
-.bg-pink {
+/* .bg-pink {
     background-color: pink;
     
   }
   
-/* Home.css */
+
 
 .container-fluid {
     padding-top: 50px;
@@ -28,13 +28,95 @@
     margin-left: 20px;
   }
   .home-image {
-    /* width: 100%;
-    height: auto;
-    margin-bottom: 20px; */
+  
     float: left;
     margin-right: 20px;
-    /* max-width: 300px; */
+
     height: auto;
     margin-bottom: 20px;
+  }
+   */
+
+   .container-fluid {
+    padding: 0;
+  }
+  
+  .bg-pink {
+    background-color: #f7d3d8;
+  }
+  
+  .home-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .content {
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    margin-top: 40px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 40px;
+  }
+  
+  .card h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-center.mb-4 {
+    margin-bottom: 40px;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .col-md-12.text-center {
+    margin-bottom: 40px;
+  }
+  
+  @media (min-width: 992px) {
+    .col-lg-8.mx-auto {
+      max-width: 750px;
+    }
   }
   

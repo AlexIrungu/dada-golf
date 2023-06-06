@@ -1,114 +1,106 @@
-/* OurEvents.css */
-
 .ourEvents {
   text-align: center;
-  margin: 20px;
-  
-    background-color: #d01896;
-  
-/*   
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  background-attachment: fixed; */
-  
-  opacity: 0.8;
+  padding: 20px;
+}
 
+.dada {
+  width: 200px;
+  margin: 10px auto;
+}
 
+.wellness {
+  width: 300px;
+  margin: 10px auto;
 }
 
 h1 {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 28px;
   margin-bottom: 10px;
+  color: #ff0099;
 }
 
 h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  margin: 20px 0;
+  color: #ff0099;
 }
 
 h4 {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin: 10px 0;
 }
 
 h5 {
   font-size: 16px;
-  font-weight: bold;
   margin-top: 20px;
-  margin-bottom: 10px;
+  color: #ff0099;
 }
 
 .container {
-  margin-top: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .card {
-  margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
   background-color: #f9f9f9;
-}
-
-.card-title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.card-text {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.card-subtitle {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.list-group-item {
-  padding: 5px 0;
-}
-
-.list-group-numbered {
-  counter-reset: item;
-  padding-left: 0;
-  margin-top: 10px;
-}
-
-.list-group-item::before {
-  content: counter(item) ". ";
-  counter-increment: item;
-  font-weight: bold;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
+  padding: 20px;
   margin-top: 20px;
 }
 
+.list-group-item {
+  border: none;
+}
+
+.table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
 th, td {
-  border: 1px solid #ccc;
   padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
 th {
-  font-weight: bold;
-  background-color: #f9f9f9;
+  background-color: #f2f2f2;
 }
 
-/* Additional custom styling can be added as per your requirements */
-.events-image{
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  width: 50px;
+ol {
+  margin-left: 20px;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ol, ul {
+  list-style-type: disc;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #ddd;
+}
+
+.expected-outcomes ol {
+  list-style-type: decimal;
+}
+
+.expected-outcomes ol li {
+  margin-bottom: 10px;
+}
+
+.expected-outcomes ol, .expected-outcomes ul {
+  margin-left: 20px;
 }

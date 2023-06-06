@@ -7,8 +7,8 @@ function Goals(){
     return(
         <div className="container mt-5 d-flex justify-content-between" >
          
-          <div className="card align-left">
-            <div className="card-body">
+          <div className="goals-card">
+            <div className="body-card">
               <div className="row mt-3">
               <h3>What we want to achieve</h3>
                 <div className="col-12 ">
