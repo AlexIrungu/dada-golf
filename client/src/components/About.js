@@ -1,76 +1,78 @@
 import React from "react";
 import Achievements from "./Achievements"
 import Proposition from "./Proposition"
-import './About.css'
 import image4 from './highlights/KMH_5166.jpg'
- import image5 from './highlights/KMH_5177.jpg'
-
 
 function About(){
     return(
-        <div className="about-cont">
-           
-            <div className="about">
-            <h1>About Us</h1>
-            <img src={image4} alt="" className="about-image"/>
-            <h3>Dada Wellness Festival</h3>
-            <p>DWF is a charity medical campaign held during women wellness 
-                month to sensitize, inform and provide
-                advocacy around women health conditions .
-                DWF is a one month campaign that gives priority to 
-                reproductive health related conditions among other.
-            </p>
-            </div>
-            <h1>ABOUT DADA WELLNESS INITIATIVE (DWI)</h1>
-              {/* <img src={image5} alt="" className="background-image" />  */}
-            <p>
-        Welcome to the Women Wellness Initiative website, dedicated to promoting the health and well-being of women across the globe.</p>
+        <div className="container-fluid bg-light py-5">
+            <div className="container">
+                <div className="row mb-5">
+                    <div className="col-md-6">
+                        <h1 className="display-4 text-primary mb-4">About Us</h1>
+                        <img src={image4} alt="Dada Wellness Festival" className="img-fluid rounded shadow mb-4"/>
+                        <h3 className="h4 text-secondary mb-3">Dada Wellness Festival</h3>
+                        <p className="lead">
+                            DWF is a charity medical campaign held during women wellness 
+                            month to sensitize, inform and provide advocacy around women's 
+                            health conditions. DWF is a one-month campaign that gives priority 
+                            to reproductive health-related conditions among others.
+                        </p>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="card border-primary h-100">
+                            <div className="card-body">
+                                <h2 className="card-title text-primary mb-4">ABOUT DADA WELLNESS INITIATIVE (DWI)</h2>
+                                <p>Welcome to the Women Wellness Initiative website, dedicated to promoting the health and well-being of women across the globe.</p>
+                                <p>At the Women Wellness Initiative, we believe that taking care of ourselves is crucial to living a full, happy, and healthy life.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<p>As women, we often have a lot on our plates – from balancing work and family responsibilities to managing our physical and mental health. At the Women Wellness Initiative, we believe that taking care of ourselves is crucial to living a full, happy, and healthy life.</p>
+                <div className="row mb-5">
+                    <div className="col-12">
+                        <h2 className="text-center mb-4">Our Mission & Focus</h2>
+                        <p>Our mission is to provide resources and support for women of all ages and backgrounds, so that they can take control of their health and wellness.</p>
+                        
+                        <div className="card bg-white shadow-sm">
+                            <div className="card-body">
+                                <h4 className="card-title text-primary mb-3">Key Areas of Focus</h4>
+                                <ul className="list-group list-group-flush">
+                                    <li className="list-group-item">Nutrition and healthy eating</li>
+                                    <li className="list-group-item">Exercise and physical activity</li>
+                                    <li className="list-group-item">Mental health and emotional well-being</li>
+                                    <li className="list-group-item">Stress management</li>
+                                    <li className="list-group-item">Sleep and relaxation</li>
+                                    <li className="list-group-item">Women's health issues</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<p>Our mission is to provide resources and support for women of all ages and backgrounds, so that they can take control of their health and wellness. Whether you are interested in learning about healthy eating, finding ways to manage stress, or getting involved in community activities that promote wellness, we are here to help.</p>
+                <div className="row mb-5">
+                    <div className="col-12">
+                        <h2 className="text-center mb-4">Our Core Values</h2>
+                        <div className="card border-primary">
+                            <div className="card-body">
+                                <ol className="list-group list-group-numbered">
+                                    <li className="list-group-item">Women are key influencers of a nation's health-seeking behavior</li>
+                                    <li className="list-group-item">Good health is physical, spiritual, emotional and mental well-being</li>
+                                    <li className="list-group-item">Promoting healthy communities where women and girls can thrive</li>
+                                    <li className="list-group-item">Integrating medicine and holistic health practices</li>
+                                    <li className="list-group-item">Preventing illness through education and community involvement</li>
+                                    <li className="list-group-item">Promoting equality beyond socioeconomic and educational status</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<p>Our website features a wealth of information, including articles and resources on a wide range of topics related to women's health. We regularly update our content to ensure that we are providing the most relevant and up-to-date advice and information.</p>
-
-<p>Some of the areas we cover include:</p>
-<ul>
- <li>Nutrition and healthy eating</li>
- <li>Exercise and physical activity</li>
- <li>Mental health and emotional well-being</li>
- <li>Stress management</li>
- <li>Sleep and relaxation</li>
- <li>Women's health issues, such as reproductive and hormonal health, breast cancer, and menopause.</li>
- </ul>
-<p>We also provide resources and information on community programs and events, as well as advice on finding the right health care provider and making informed decisions about your health care.</p>
-
-<p>At the Women Wellness Initiative, we believe that taking care of ourselves is not just important for our own well-being, but also for the well-being of our families, communities, and the world around us. We invite you to explore our website, connect with us on social media, and become a part of our community of women committed to living healthy, happy lives.
-        </p> 
-
-            <div>
-                <h1>MISSION & VALUES</h1>
-                <ol>
-                    <li>We believe that women are the key influencers of a nation’s health-seeking behavior.</li>
-                    <li>We believe that good health is physical, spiritual, emotional and mental well-being.</li>
-                    <li>We believe in healthy communities where women and girls have a healthy life for
-personal growth and growth of a healthy community.</li>
-                    <li>We believe that good health involves an integration of medicine and holistic health
-practices to create a better life.</li>
-                    <li>We believe in preventing illness through education, better access to health services,
-corporate partnerships in education and prevention and community involvement in
-writing the narrative.</li>
-                    <li>We believe in equality beyond socioeconomic and educational status of women and girls
-in our awareness creation objective and campaigns on access to health services.</li>
-                </ol>
                 <Achievements />
                 <Proposition />
             </div>
-
-            {/* <div className="about-pic">
-                <img src="https://www.womenswellness-sd.com/wp-content/uploads/2021/07/WWSD-Banner.jpg" alt=""/>
-
-            </div> */}
         </div>
-
     )
 }
 

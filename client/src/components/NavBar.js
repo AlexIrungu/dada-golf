@@ -1,86 +1,47 @@
-import React from "react";
-import "./NavBar.css";
-import { NavLink } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function NavBar() {
-//   const navigate = useNavigate();
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <NavLink exact to="/">
-            <a class="navbar-brand" >
-            Home
-          </a>
-          </NavLink>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary py-3 shadow-sm">
+      <div className="container">
+        <div className="d-flex justify-content-between align-items-center w-100">
+          <Link to="/" className="navbar-brand fs-4 fw-bold">Dada Golf</Link>
+          <button 
+            className="navbar-toggler" 
+            type="button" 
+            onClick={() => setIsOpen(!isOpen)}
+            aria-controls="navbarNav" 
+            aria-expanded={isOpen}
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            {/* <li class="nav-item">
-                <NavLink to="/home">
-                  <a class="nav-link active" aria-current="page"  o>
-                  Home
-                </a>
-                </NavLink>
-              </li> */}
-              <li class="nav-item">
-                <NavLink to="/about">
-                  <a class="nav-link active" aria-current="page"  o>
-                  About
-                </a>
-                </NavLink>
-              </li>
-              {/* <li class="nav-item">
-                <NavLink to="/proposition">
-                  <a class="nav-link" >
-                  Proposition
-                </a>
-                </NavLink>
-              </li> */}
-             
-              <li class="nav-item">
-                <NavLink to="/our-events">
-                  <a class="nav-link ">Our Events</a>
-                  </NavLink>
-              </li>
-              <li class="nav-item">
-                <NavLink to="/goals">
-                  <a class="nav-link ">Goals</a>
-                  </NavLink>
-              </li>
-              {/* <li class="nav-item">
-                <NavLink to="/marketing">
-                  <a class="nav-link ">Marketing</a>
-                  </NavLink>
-              </li> */}
-              {/* <li class="nav-item">
-                <NavLink to="/opportunities">
-                  <a class="nav-link ">Opportunities</a>
-                  </NavLink>
-              </li> */}
-              <li class="nav-item">
-                <NavLink to="/gallery">
-                  <a class="nav-link ">Gallery</a>
-                  </NavLink>
-              </li>
-            </ul>
-            
-          </div>
         </div>
-      </nav>
-    </div>
+        <div className={`collapse navbar-collapse justify-content-center ${isOpen ? 'show' : ''}`} id="navbarNav">
+          <ul className="navbar-nav text-center">
+            {[
+              { to: "/about", label: "About" },
+              { to: "/our-events", label: "Our Events" },
+              { to: "/goals", label: "Goals" },
+              { to: "/gallery", label: "Gallery" }
+            ].map(({ to, label }) => (
+              <li key={to} className="nav-item mx-2">
+                <Link 
+                  to={to} 
+                  className="nav-link text-white hover-underline position-relative"
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
-}
+};
 
-export default NavBar;
+export default Navbar;
