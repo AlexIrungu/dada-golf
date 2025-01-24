@@ -3,41 +3,42 @@ import image from './highlights/KMH_5093.jpg'
 import image2 from './highlights/KMH_5107.jpg'
 import image3 from './highlights/KMH_5135.jpg'
 import Logos from "./Logos";
+import Marketing from "./Marketing";
 
 function Home() {
+  const highlightImages = [
+    { src: image, alt: "Event Highlight 1" },
+    { src: image2, alt: "Event Highlight 2" },
+    { src: image3, alt: "Event Highlight 3" }
+  ];
+
   return (
-    <div className="container-fluid bg-light">
-      <Logos />
-      
-      <div className="row py-4">
-        <div className="col-12">
-          <div className="d-flex justify-content-center mb-4">
-            <div className="row g-3">
-              <div className="col-md-4">
-                <img src={image} alt="Event Highlight 1" className="img-fluid rounded shadow-sm" />
+    <div className="bg-gradient-to-br from-teal-50 to-teal-100 min-h-screen">
+      <div className="container mx-auto px-4 py-12">
+        <Logos />
+        
+        {/* Image Highlights Section */}
+        <div className="mb-16">
+          <div className="grid md:grid-cols-3 gap-8 justify-center">
+            {highlightImages.map((img, index) => (
+              <div 
+                key={index} 
+                className="group overflow-hidden rounded-2xl shadow-xl"
+              >
+                <img 
+                  src={img.src} 
+                  alt={img.alt} 
+                  className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
+                />
               </div>
-              <div className="col-md-4">
-                <img src={image2} alt="Event Highlight 2" className="img-fluid rounded shadow-sm" />
-              </div>
-              <div className="col-md-4">
-                <img src={image3} alt="Event Highlight 3" className="img-fluid rounded shadow-sm" />
-              </div>
-            </div>
+            ))}
           </div>
         </div>
-      </div>
-      
-      <div className="row">
-        <div className="col-md-10 col-lg-8 mx-auto">
-          <div className="card border-primary shadow rounded">
-            <div className="card-body text-center p-5">
-              <h1 className="display-4 text-primary mb-3">DADA GOLF</h1>
-              <h6 className="text-muted mb-3">TOURNAMENT</h6>
-              <h2 className="h3 text-dark mb-3">WOMEN WELLNESS MONTH</h2>
-              <h2 className="h3 text-dark mb-3">FEMALE HEALTH AWARENESS CAMPAIGN</h2>
-              <h3 className="h4 text-danger mb-0">MAY 1ST - MAY 30TH</h3>
-            </div>
-          </div>
+        
+        {/* Event Information Section */}
+        <div className="max-w-4xl mx-auto space-y-12">
+         
+          <Marketing />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Opportunities from "./Opportunities";
-import Marketing from './Marketing'
+// import Marketing from './Marketing'
 
 function Goals(){
     return(
@@ -54,12 +54,12 @@ function Goals(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-6">
                         <Opportunities />
                     </div>
-                    <div className="col-lg-3">
+                    {/* <div className="col-lg-3">
                         <Marketing />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
